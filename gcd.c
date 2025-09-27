@@ -19,7 +19,7 @@ int gcd(int a, int b) {    // Déclare la fonction gcd qui prend 2 entiers a et 
   }
   return a;                // Quand b vaut 0, a contient le PGCD, on le retourne
 }
-}
+
 
 int main(int argc, char* argv[]) {  // Fonction principale : argc = nombre d’arguments, argv = tableau des arguments
     if (argc <= 2) {       // Vérifie qu’au moins 2 arguments sont passés (les deux nombres dont on veut le PGCD)
